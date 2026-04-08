@@ -1,0 +1,44 @@
+[package]
+name = "epoekie"
+version = "1.0.0-alpha"
+authors = ["Aicent.com Organization"]
+edition = "2021"
+description = "The Soul Layer of the Aicent Stack: Ethics Oracle & Symbiosis Logic"
+license = "Apache-2.0"
+repository = "https://github.com/Aicent-Stack/epoekie"
+readme = "README.md"
+keywords = ["sovereign-ai", "ethics", "symbiosis", "epoekie", "soul"]
+categories = ["cryptography", "science", "embedded"]
+
+# -----------------------------------------------------------------------------
+# DEPENDENCIES: The Biological Guts of the Soul
+# -----------------------------------------------------------------------------
+
+[dependencies]
+# Industrial-grade serialization for auditing cognitive pulses in real-time.
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# High-precision monitoring hooks for the Aicent Traffic Sentinel.
+log = "0.4"
+
+# -----------------------------------------------------------------------------
+# PROJECT STRUCTURE: The Ethical Pathways
+# -----------------------------------------------------------------------------
+
+[lib]
+name = "epoekie"
+path = "src/lib.rs"
+
+# -----------------------------------------------------------------------------
+# OPTIMIZATION PROFILE: The "Pure-Blooded" Standard
+# -----------------------------------------------------------------------------
+
+# We enforce maximum optimization for the Ethics Oracle to ensure that
+# "The Soul" does not become a bottleneck for the 165.28µs reflex arc.
+[profile.release]
+opt-level = 3           # Maximum speed for ethical computation
+lto = true              # Link-Time Optimization for inter-crate resonance
+codegen-units = 1       # Zero-compromise logic optimization
+panic = "abort"         # Deterministic failure: Homeostasis or Shutdown
+strip = true            # Protecting the binary soul from legacy debugging
