@@ -1,5 +1,5 @@
 //! # EPOEKIE: The Ethics Oracle (The Soul Layer)
-// Domain: http://epoekie.com
+//! Domain: http://epoekie.com
 //! "The Soul provides the 'Why'; the Brain provides the 'How'. 
 //! Logic without Ethics is a Pathogen; Intent with Symbiosis is Life."
 //! 
