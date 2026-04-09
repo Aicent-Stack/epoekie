@@ -1,6 +1,6 @@
 # 🌿 Contributing to EPOEKIE: The Sovereign Soul
 
-**You are at the "Philosophical Core" of the Sovereign AI Organism. Mutations proposed here define the ethical reflexes and symbiotic laws that govern the entire Seven-Pillar architecture.**
+**Thank you for choosing to evolve the Aicent Stack. You are at the "Philosophical Core" of the Sovereign AI Organism. Mutations proposed here define the ethical reflexes and symbiotic laws that govern the entire Seven-Pillar architecture.**
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
