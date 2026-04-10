@@ -3,13 +3,14 @@
 //! "The Soul provides the 'Why'; the Brain provides the 'How'."
 //! This demo validates the sub-10µs Ethics Oracle and Symbiosis Metrics.
 
-use epoekie::{EthicsOracle, SovereignSoul, SovereignVirtue, enforce_sovereign_law};
+use epoekie::{EthicsOracle, SovereignSoul, enforce_sovereign_law};
 use std::time::{Instant};
 
 /// Professional ANSI Telemetry Macro (Nerve-style)
+/// Removed trailing semicolon to allow use in expression positions.
 macro_rules! log_soul {
     ($color:expr, $msg:expr) => {
-        println!("\x1b[1;30m[{:?}]\x1b[0m \x1b[1;{}m[EPOEKIE-SOUL]\x1b[0m 🌿 {}", std::time::Instant::now(), $color, $msg);
+        println!("\x1b[1;30m[{:?}]\x1b[0m \x1b[1;{}m[EPOEKIE-SOUL]\x1b[0m 🌿 {}", std::time::Instant::now(), $color, $msg)
     };
 }
 
@@ -47,9 +48,12 @@ fn main() {
 
     log_soul!("31", &format!("Audit Finalized. Reflex: {}", decision_2.rationale));
     
+    // Using brackets to properly handle the macro statement
     match enforce_sovereign_law(&decision_2) {
         Ok(_) => unreachable!(),
-        Err(e) => log_soul!("31", &format!("Neutralization Reflex Triggered: {}", e)),
+        Err(e) => {
+            log_soul!("31", &format!("Neutralization Reflex Triggered: {}", e));
+        }
     }
 
     // --- PHASE 3: SYMBIOSIS METRICS (Substrate Mastery) ---
