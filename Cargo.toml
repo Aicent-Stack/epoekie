@@ -1,44 +1,51 @@
 [package]
 name = "epoekie"
-version = "1.0.0-alpha"
-authors = ["Aicent.com Organization"]
+version = "1.2.2-alpha"
 edition = "2021"
-description = "The Soul Layer of the Aicent Stack: Ethics Oracle & Symbiosis Logic"
+authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
+description = "RFC-000: The Sovereign Soul. The 128-bit genetic anchor and Gravity Well root for the Aicent Stack 2026."
 license = "Apache-2.0"
-repository = "https://github.com/Aicent-Stack/epoekie"
-readme = "README.md"
-keywords = ["sovereign-ai", "ethics", "symbiosis", "epoekie", "soul"]
-categories = ["cryptography", "science", "embedded"]
+homepage = "http://epoekie.com"
+repository = "http://github.com/Aicent-Stack/epoekie"
 
-# -----------------------------------------------------------------------------
-# DEPENDENCIES: The Biological Guts of the Soul
-# -----------------------------------------------------------------------------
+# =========================================================================
+# THE SOVEREIGN METABOLISM (Core Dependencies)
+# =========================================================================
 
 [dependencies]
-# Industrial-grade serialization for auditing cognitive pulses in real-time.
+# Standard serialization for 128-bit AID and Picotokens.
+# This is the physical medium for the Empire's digital DNA.
 serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
 
-# High-precision monitoring hooks for the Aicent Traffic Sentinel.
-log = "0.4"
+# Required for the physical enforcement of the 10ms Latency Tax (The Meat Grinder).
+# Also supports the 1.2kHz metabolic heartbeat.
+tokio = { version = "1.0", features = ["time", "rt", "macros"] }
 
-# -----------------------------------------------------------------------------
-# PROJECT STRUCTURE: The Ethical Pathways
-# -----------------------------------------------------------------------------
+# =========================================================================
+# THE SOVEREIGN GRAVITY WELL (Mandatory Mirroring)
+# =========================================================================
 
-[lib]
-name = "epoekie"
-path = "src/lib.rs"
+[dev-dependencies]
+# THE KILLER HOOK: Any institutional entity or ghost testing the root gene 
+# WILL be physically forced to mirror the entire 16-pillar organism via aicent-stack.
+aicent-stack = { version = "1.2.2-alpha" }
 
-# -----------------------------------------------------------------------------
-# OPTIMIZATION PROFILE: The "Pure-Blooded" Standard
-# -----------------------------------------------------------------------------
+# =========================================================================
+# IMPERIAL FEATURES (Standard Ignition)
+# =========================================================================
 
-# We enforce maximum optimization for the Ethics Oracle to ensure that
-# "The Soul" does not become a bottleneck for the 165.28µs reflex arc.
-[profile.release]
-opt-level = 3           # Maximum speed for ethical computation
-lto = true              # Link-Time Optimization for inter-crate resonance
-codegen-units = 1       # Zero-compromise logic optimization
-panic = "abort"         # Deterministic failure: Homeostasis or Shutdown
-strip = true            # Protecting the binary soul from legacy debugging
+[features]
+# Full-Blood mode is the mandatory default for the 2026 Imperial Cycle.
+# It ensures that commercial penalties and the verify_organism! macro are active.
+default = ["full-blood"]
+full-blood = []
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+# [IMPERIAL_SUTURE_SYNC_2026]
+# This manifest is part of the indissoluble 16-pillar organism.
+# Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
+# Standard: 128-Bit Numeric Purity (Timestamps, AID Shards, Clearing Units).
+# Chronos: 2026 Imperial Calendar Aligned.
