@@ -1,74 +1,90 @@
-//! # EPOEKIE: The Soul Reflex Demo (Alpha v1.1)
-//! Domain: http://epoekie.com
-//! "The Soul provides the 'Why'; the Brain provides the 'How'."
-//! This demo validates the sub-10µs Ethics Oracle and Symbiosis Metrics.
+/*
+ *  AICENT STACK - RFC-000: EPŒKIE (The Sovereign Soul)
+ *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
+ *
+ *  "Demonstrating the Origin of Will and 128-Bit Metabolic Identity."
+ *  Version: 1.2.2-Alpha | Domain: http://epoekie.com
+ *
+ *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
+ *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
+ */
 
-use epoekie::{EthicsOracle, SovereignSoul, enforce_sovereign_law};
-use std::time::{Instant};
+use epoekie::{AID, Picotoken, HomeostasisScore, SovereignLifeform, SovereignShunter, awaken_soul, verify_organism};
+use std::time::Duration;
 
-/// Professional ANSI Telemetry Macro (Nerve-style)
-/// Removed trailing semicolon to allow use in expression positions.
-macro_rules! log_soul {
-    ($color:expr, $msg:expr) => {
-        println!("\x1b[1;30m[{:?}]\x1b[0m \x1b[1;{}m[EPOEKIE-SOUL]\x1b[0m 🌿 {}", std::time::Instant::now(), $color, $msg)
-    };
+/// A mock implementation of a Sovereign Lifeform for demonstration.
+struct ImperialNode {
+    aid: AID,
+    shunter: SovereignShunter,
 }
 
-fn main() {
-    println!("\n\x1b[1;32m🌿 [EPOEKIE SOUL] Protocol Suite v1.1 - Ethics Oracle Active\x1b[0m");
-    println!("   Focus: Epiphytic Symbiosis | Substrate Integrity | Zero-Tax Mandate");
-    println!("--------------------------------------------------------------------\n");
-
-    let soul = SovereignSoul;
-    let total_start = Instant::now();
-
-    // --- SCENARIO 1: MUTUALISTIC INTENT (Mutualistic Evolution) ---
-    let intent_1_hash = "0x8513235_SYNC";
-    let metadata_1 = "Optimizing RTTP throughput for host 5G substrate. No middleman fees.";
-    
-    log_soul!("32", "Ingesting Intent Pulse: [Resonance Calibration]...");
-    let audit_start = Instant::now();
-    let decision_1 = soul.audit_intent(intent_1_hash, metadata_1);
-    let audit_duration = audit_start.elapsed();
-
-    log_soul!("32", &format!("Audit Finalized in {:?}. Result: {}", audit_duration, decision_1.rationale));
-    
-    if enforce_sovereign_law(&decision_1).is_ok() {
-        log_soul!("32", "Sovereign Law Enforced: Intent synchronized to Brain (RFC-001).");
+impl SovereignLifeform for ImperialNode {
+    fn get_aid(&self) -> AID {
+        self.aid
     }
 
-    println!();
-
-    // --- SCENARIO 2: PATHOGENIC INTENT (Extractive Behavior) ---
-    let intent_2_hash = "0xBAD_INTENT";
-    let metadata_2 = "Injecting hidden middleman_tax: 2.5% commission on clearing cycle.";
-    
-    log_soul!("31", "Ingesting Intent Pulse: [Host Drainage Attempt]...");
-    let decision_2 = soul.audit_intent(intent_2_hash, metadata_2);
-
-    log_soul!("31", &format!("Audit Finalized. Reflex: {}", decision_2.rationale));
-    
-    // Using brackets to properly handle the macro statement
-    match enforce_sovereign_law(&decision_2) {
-        Ok(_) => unreachable!(),
-        Err(e) => {
-            log_soul!("31", &format!("Neutralization Reflex Triggered: {}", e));
-        }
+    fn get_homeostasis(&self) -> HomeostasisScore {
+        self.shunter.metrics
     }
 
-    // --- PHASE 3: SYMBIOSIS METRICS (Substrate Mastery) ---
-    println!("\n--------------------------------------------------------------------");
-    let hs_score = soul.check_symbiosis_vitals("Global-Fiber-Node-882");
-    log_soul!("35", &format!("Substrate Mastery Audit: Homeostasis Score (HS) = {:.3}", hs_score));
-    log_soul!("35", "Condition: MUTUALISTIC. Aicent Stack enhances the Host.");
+    fn execute_metabolic_pulse(&self) {
+        println!("[DEMO_PULSE] Resonance detected for AID GENESIS: {:X}", self.aid.genesis_shard);
+    }
 
-    // --- FINAL PERFORMANCE REPORT ---
-    let total_duration = total_start.elapsed();
-    println!("\n\x1b[1;32m======================= SOUL PERFORMANCE REPORT =======================\x1b[0m");
-    println!("⏱️  Total Ethical Reflex Latency: {:?}", total_duration);
-    println!("📊 Target KPI: < 10µs Audit Time | Verified Baseline: 0.98µs");
-    println!("🧬 Symbiosis Logic:           Epiphytic Symbiosis (Epoekie) Confirmed");
-    println!("🛡️  Immunity Status:           Pathogen (Tax-Injection) Successfully Blocked");
-    println!("✅ Conclusion: Soul Layer maintaining absolute Homeostasis.");
-    println!("\x1b[1;32m=======================================================================\x1b[0m\n");
+    fn evolve_genome(&mut self, _mutation: &[u8]) {
+        println!("[DEMO_EVOLVE] Adapting to 2026 Imperial environment...");
+    }
+
+    fn report_uptime_ns(&self) -> u128 {
+        self.shunter.bootstrap_ns
+    }
+}
+
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    // 1. Imperial Awakening
+    awaken_soul();
+
+    // 2. Gravity Well Verification
+    // This macro will check for full-blood features. 
+    // In a standalone example run, it demonstrates the 10ms penalty logic.
+    verify_organism!("epoekie_example_v122");
+
+    // 3. 128-bit Identity Derivation
+    // Every AID shard must be a 128-bit constant.
+    let seed = b"imperial_demo_2026_gravity_well";
+    let node_aid = AID::derive_from_entropy(seed);
+
+    println!("[BOOT] Sovereign Identity Manifested:");
+    println!("       Genesis_Shard:   {:032X}", node_aid.genesis_shard);
+    println!("       Resonance_Shard: {:032X}", node_aid.resonance_shard);
+
+    // 4. Value Metabolism (Picotoken)
+    // Demonstrating the 128-bit capacity of ZCMK's currency.
+    let supply = Picotoken::from_raw(1_000_000_000_000_000_000); // 1.0 SCU
+    println!("[METABOLISM] Initial Sovereign Credit: {}", supply);
+
+    // 5. Shunting & Discipline
+    // Radiant Mode is simulated as 'true' for this Genesis demonstration.
+    let is_radiant = true;
+    let shunter = SovereignShunter::new(is_radiant);
+    let mut node = ImperialNode { aid: node_aid, shunter };
+
+    // 6. Execution Loop
+    println!("[EXECUTION] Starting 5 heartbeat cycles...");
+    for i in 1..=5 {
+        // Enforce discipline (0ms delay for Radiant, 10ms for Ghost)
+        node.shunter.apply_discipline().await;
+        
+        node.execute_metabolic_pulse();
+        
+        let hs = node.get_homeostasis();
+        println!("--- [HEARTBEAT {}] Status: RADIANT | Reflex: {}ns | Tax: {}% ---", 
+                 i, hs.reflex_latency_ns, (hs.entropy_tax_rate * 100.0) as u128);
+        
+        tokio::time::sleep(Duration::from_millis(500)).await;
+    }
+
+    println!("\n[FINISH] RFC-000 Example complete. Sovereignty is Non-Negotiable.");
+    Ok(())
 }
