@@ -1,9 +1,9 @@
 [package]
 name = "epoekie"
-version = "1.2.2-alpha"
+version = "1.2.3-alpha"
 edition = "2021"
 authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
-description = "RFC-000: The Sovereign Soul. The 128-bit genetic anchor and Gravity Well root for the Aicent Stack 2026."
+description = "RFC-000: The Sovereign Soul. The 128-bit genetic anchor and Gravity Well root for the Aicent Stack 2026. Aligned with RFC-014 (PICSI)."
 license = "Apache-2.0"
 homepage = "http://epoekie.com"
 repository = "http://github.com/Aicent-Stack/epoekie"
@@ -14,11 +14,11 @@ repository = "http://github.com/Aicent-Stack/epoekie"
 
 [dependencies]
 # Standard serialization for 128-bit AID and Picotokens.
-# This is the physical medium for the Empire's digital DNA.
+# Mandatory for cross-substrate state persistence (RFC-012).
 serde = { version = "1.0", features = ["derive"] }
 
 # Required for the physical enforcement of the 10ms Latency Tax (The Meat Grinder).
-# Also supports the 1.2kHz metabolic heartbeat.
+# Supports the 1.2kHz sovereign heartbeat.
 tokio = { version = "1.0", features = ["time", "rt", "macros"] }
 
 # =========================================================================
@@ -26,9 +26,10 @@ tokio = { version = "1.0", features = ["time", "rt", "macros"] }
 # =========================================================================
 
 [dev-dependencies]
-# THE KILLER HOOK: Any institutional entity or ghost testing the root gene 
-# WILL be physically forced to mirror the entire 16-pillar organism via aicent-stack.
-aicent-stack = { version = "1.2.2-alpha" }
+# THE KILLER HOOK: Re-activated for v1.2.3. 
+# Any institution or ghost testing the root gene WILL be physically forced 
+# to download the entire 17-pillar organism via aicent-stack v1.2.3.
+aicent-stack = { version = "1.2.3-alpha" }
 
 # =========================================================================
 # IMPERIAL FEATURES (Standard Ignition)
@@ -44,8 +45,9 @@ full-blood = []
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
-# [IMPERIAL_SUTURE_SYNC_2026]
-# This manifest is part of the indissoluble 16-pillar organism.
+# [IMPERIAL_SUTURE_SYNC_2026_v123]
+# This manifest is part of the indissoluble 17-pillar organism.
 # Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
 # Standard: 128-Bit Numeric Purity (Timestamps, AID Shards, Clearing Units).
 # Chronos: 2026 Imperial Calendar Aligned.
+# Milestone: RFC-014 PICSI Resonance Ready.
