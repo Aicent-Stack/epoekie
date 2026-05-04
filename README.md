@@ -23,6 +23,8 @@ In the **v1.2.3-Alpha Observer Epoch**, `epoekie` has achieved full diagnostic r
 
 The v1.2.3-Alpha release marks the arrival of **Autonomous Performance Evolution**. The Soul Layer has demonstrated the ability to harden its synaptic paths, achieving a reflex arc that surpasses all previous benchmarks while maintaining 100% self-audit overhead.
 
+<img width="2041" height="1773" alt="20260503141435" src="https://github.com/user-attachments/assets/7172f501-2c83-4073-8092-236d613b962b" />
+
 ### **2.1 Verified Benchmarks**
 | Metric | Specification | v1.2.3-Alpha Reality |
 | :--- | :--- | :--- |
