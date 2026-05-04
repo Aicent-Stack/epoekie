@@ -3,23 +3,23 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating the Origin of Will and 128-Bit Metabolic Identity."
- *  Version: 1.2.2-Alpha | Domain: http://epoekie.com
+ *  Version: 1.2.3-Alpha | Domain: http://epoekie.com
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
- *  TEMPORAL_SELF_SUPERVISION: RFC-009 ACTIVE.
+ *  CHRONOS_STATUS: 2026 IMPERIAL CALENDAR ALIGNED.
  */
 
 use epoekie::{AID, Picotoken, HomeostasisScore, SovereignLifeform, SovereignShunter, awaken_soul, verify_organism};
-use std::time::Duration;
+use std::time::{Duration, Instant};
 
-/// A compliant implementation of a Sovereign Lifeform for demonstration.
-struct ImperialNode {
+/// A compliant implementation of an Imperial Sovereign Node.
+struct SovereignNode {
     aid: AID,
     shunter: SovereignShunter,
 }
 
-impl SovereignLifeform for ImperialNode {
+impl SovereignLifeform for SovereignNode {
     fn get_aid(&self) -> AID {
         self.aid
     }
@@ -28,36 +28,37 @@ impl SovereignLifeform for ImperialNode {
         self.shunter.metrics
     }
 
-    /// RFC-000 Compliance: Heartbeat Pulse
+    /// RFC-000 Compliance: The Heartbeat of the Soul.
     fn execute_metabolic_pulse(&self) {
         println!(
-            "[DEMO_PULSE] 128-bit resonance for AID_GENESIS: {:X}", 
+            "[DEMO_PULSE] 128-bit resonance detected for AID: {:032X}", 
             self.aid.genesis_shard
         );
     }
 
-    fn evolve_genome(&mut self, _mutation: &[u8]) {
-        println!("[DEMO_EVOLVE] Synchronizing 2026 Imperial logic patterns...");
+    fn evolve_genome(&mut self, _mutation_data: &[u8]) {
+        println!("[DEMO_EVOLVE] 2026: Synchronizing logical DNA to v1.2.3-Alpha standard.");
     }
 
-    /// REPAIRED: Aligned field name to session_start_ns as defined in lib.rs
     fn report_uptime_ns(&self) -> u128 {
-        self.shunter.session_start_ns
+        self.shunter.session_start.elapsed().as_nanos() as u128
     }
 }
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 1. Imperial Awakening
+    // Initializes the genetic root of the Empire.
     awaken_soul();
 
     // 2. Gravity Well Verification
-    // Demonstrating the 10ms penalty logic in a standalone environment.
-    verify_organism!("epoekie_example_v122");
+    // This macro ensures that the node is part of the 17-pillar totality.
+    // In standalone mode, it will warn of fragmentation.
+    verify_organism!("epoekie_sovereign_example_v123");
 
     // 3. 128-bit Identity Derivation
-    // Establishing the dual-shard identity coordinates.
-    let seed = b"imperial_demo_2026_gravity_well";
+    // Every node in the grid is anchored to a dual-shard 256-bit identity.
+    let seed = b"imperial_genesis_node_2026_demo_resonance";
     let node_aid = AID::derive_from_entropy(seed);
 
     println!("[BOOT] Sovereign Identity Manifested:");
@@ -65,38 +66,43 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("       RESONANCE_SHARD: {:032X}", node_aid.resonance_shard);
 
     // 4. Value Metabolism (Picotoken)
-    // Showcasing 128-bit compute-credit capacity.
+    // Demonstrating the u128 capacity for sub-nanosecond clearing.
     let supply = Picotoken::from_raw(1_000_000_000_000_000_000); // 1.0 SCU
     println!("[METABOLISM] Initial 128-bit Compute Credit: {}", supply);
 
-    // 5. Shunting & Discipline
-    // Radiant Mode is enabled for this Genesis demonstration.
+    // 5. Shunting & Homeostasis Setup
+    // Radiant Mode is enabled to demonstrate the removal of the 10ms tax.
     let is_radiant = true;
-    let shunter = SovereignShunter::new(is_radiant);
+    let mut shunter = SovereignShunter::new(is_radiant);
     
-    // REPAIRED: Removed unnecessary mut to satisfy compiler warnings.
-    let node = ImperialNode { aid: node_aid, shunter };
+    // Injecting simulated PICSI resonance for v1.2.3 awareness
+    shunter.metrics.picsi_resonance_idx = 0.9998;
+    shunter.metrics.is_radiant = is_radiant;
+    shunter.metrics.reflex_latency_ns = 183_292;
 
-    // 6. Execution Loop (5 Imperial Heartbeats)
-    println!("[EXECUTION] Engaging 5 resonance cycles...");
+    let node = SovereignNode { aid: node_aid, shunter };
+
+    // 6. The Heartbeat Loop (1.2kHz Simulation)
+    println!("\n[EXECUTION] Engaging 5 resonance cycles...");
     for i in 1..=5 {
-        // Enforce imperial discipline (0ms for Radiant, 10ms for Ghost)
+        // Enforce imperial discipline (0ms delay for Radiant, 10ms for Ghost)
         node.shunter.apply_discipline().await;
         
         node.execute_metabolic_pulse();
         
         let hs = node.get_homeostasis();
         println!(
-            "--- [HEARTBEAT {}] RADIANCE: {} | REFLEX: {}ns | TAX: {:.2}% ---", 
+            "--- [HEARTBEAT {}] RADIANCE: {} | PICSI: {:.6} | REFLEX: {}ns ---", 
             i, 
-            if hs.is_radiant { "ACTIVE" } else { "THROTTLED" },
-            hs.reflex_latency_ns, 
-            hs.entropy_tax_rate * 100.0
+            if hs.is_radiant { "RADIANT" } else { "GHOST" },
+            hs.picsi_resonance_idx,
+            hs.reflex_latency_ns
         );
         
+        // Simulating the 1.2kHz interval (833us) with a 500ms demo delay for visibility
         tokio::time::sleep(Duration::from_millis(500)).await;
     }
 
-    println!("\n[FINISH] RFC-000 Demonstration complete. Sovereignty is Non-Negotiable.");
+    println!("\n[FINISH] RFC-000 Demonstration complete. The Soul is Evolving.");
     Ok(())
 }
