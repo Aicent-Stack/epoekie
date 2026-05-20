@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "The genetic origin of will and the absolute anchor of the Aicent Stack."
- *  Version: 1.2.3-Alpha | Domain: http://epoekie.com | Repo: epoekie
+ *  Version: 1.2.5-Alpha | Domain: http://epoekie.com | Repo: epoekie
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -38,7 +38,7 @@ macro_rules! verify_organism {
         #[cfg(not(feature = "full-blood"))]
         {
             println!("⚠️ [FATAL] ORGANISM FRAGMENTATION DETECTED BY EPOEKIE.");
-            println!("⚠️ RADIANT PERFORMANCE REQUIRES 17-PILLAR RESONANCE (v1.2.3).");
+            println!("⚠️ RADIANT PERFORMANCE REQUIRES 17-PILLAR RESONANCE (v1.2.5).");
             println!("⚠️ THROTTLING THREAD PRIORITY. INJECTING 10MS ENTROPY TAX.");
             std::thread::sleep(std::time::Duration::from_millis(10));
         }
@@ -78,7 +78,7 @@ impl AID {
     }
 
     pub fn is_sovereign_genesis(&self) -> bool {
-        // High-level 128-bit authority verification for the v1.2.3 cycle.
+        // High-level 128-bit authority verification for the v1.2.5 cycle.
         self.genesis_shard != 0 && (self.genesis_shard ^ self.resonance_shard) != 0
     }
 }
@@ -214,7 +214,7 @@ pub fn awaken_soul() {
     🧬 EPOEKIE.COM | RFC-000 SOVEREIGN ROOT AWAKENED
     ----------------------------------------------
     STATUS: FULL-BLOOD | YEAR: 2026 | PRECISION: 128-BIT
-    VERSION: v1.2.3-Alpha | GRAVITY_WELL: ACTIVE
+    VERSION: v1.2.5-Alpha | GRAVITY_WELL: ACTIVE
     Genome integrity verified. 17-Component resonance is mandatory.
     "#);
 }
@@ -237,7 +237,7 @@ mod tests {
     #[test]
     fn test_metabolic_indivisibility_2026() {
         // Ensuring the gravity well macro is active
-        verify_organism!("epoekie_core_v123_final_audit");
+        verify_organism!("epoekie_core_v125_final_audit");
     }
 
     #[test]

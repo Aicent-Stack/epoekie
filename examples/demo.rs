@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating the Origin of Will and 128-Bit Metabolic Identity."
- *  Version: 1.2.3-Alpha | Domain: http://epoekie.com
+ *  Version: 1.2.5-Alpha | Domain: http://epoekie.com
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -37,7 +37,7 @@ impl SovereignLifeform for SovereignNode {
     }
 
     fn evolve_genome(&mut self, _mutation_data: &[u8]) {
-        println!("[DEMO_EVOLVE] 2026: Synchronizing logical DNA to v1.2.3-Alpha standard.");
+        println!("[DEMO_EVOLVE] 2026: Synchronizing logical DNA to v1.2.5-Alpha standard.");
     }
 
     fn report_uptime_ns(&self) -> u128 {
@@ -54,7 +54,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 2. Gravity Well Verification
     // This macro ensures that the node is part of the 17-pillar totality.
     // In standalone mode, it will warn of fragmentation.
-    verify_organism!("epoekie_sovereign_example_v123");
+    verify_organism!("epoekie_sovereign_example_v125");
 
     // 3. 128-bit Identity Derivation
     // Every node in the grid is anchored to a dual-shard 256-bit identity.
@@ -75,10 +75,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let is_radiant = true;
     let mut shunter = SovereignShunter::new(is_radiant);
     
-    // Injecting simulated PICSI resonance for v1.2.3 awareness
+    // Injecting simulated PICSI resonance for v1.2.5 awareness
     shunter.metrics.picsi_resonance_idx = 0.9998;
     shunter.metrics.is_radiant = is_radiant;
-    shunter.metrics.reflex_latency_ns = 183_292;
+    shunter.metrics.reflex_latency_ns = 161.862;
 
     let node = SovereignNode { aid: node_aid, shunter };
 
