@@ -26,14 +26,14 @@ The primary gain for any host (ISP, CDN, Data Center) is the radical optimizatio
 | :--- | :--- | :--- |
 | **Latency-Tax Elimination** | Reduction in protocol overhead compared to legacy TCP/HTTPS. | **> 90% Decrease** |
 | **Throughput Density** | Volume of cognitive pulses processed per Gbps of raw bandwidth. | **5.4x Increase** |
-| **Semantic Savings** | Bandwidth recovered through **RTTP (RFC-002)** Delta-Compression. | **84.2% Saved** |
-| **Resonance Stability** | Reduction in network jitter through **RFC-006** Kinetic Alignment. | **< 5µs Drift** |
+| **Semantic Savings** | Bandwidth recovered through **RTTP (AICENT-002)** Delta-Compression. | **84.2% Saved** |
+| **Resonance Stability** | Reduction in network jitter through **AICENT-006** Kinetic Alignment. | **< 5µs Drift** |
 
 ---
 
 ## 🛡️ 2. Immune Resilience (Security & Integrity)
 
-Through the **RPKI (RFC-003)** layer, the Aicent Stack provides an "Active Guard" for the host's infrastructure.
+Through the **RPKI (AICENT-003)** layer, the Aicent Stack provides an "Active Guard" for the host's infrastructure.
 
 - **Pathogen Detection Rate:** The ability of the Hive to identify MITM or DDoS signatures at the bit-stream level. (Target: **99.99% Accuracy**).
 - **Isolation Finality:** The time elapsed from pathogen detection to global grid quarantine. (Target: **< 100µs**).
@@ -43,7 +43,7 @@ Through the **RPKI (RFC-003)** layer, the Aicent Stack provides an "Active Guard
 
 ## 🩸 3. Metabolic Monetization (ZCMK Economics)
 
-Symbiosis must be profitable. The **ZCMK (RFC-004)** engine transforms silent hardware into a liquid asset.
+Symbiosis must be profitable. The **ZCMK (AICENT-004)** engine transforms silent hardware into a liquid asset.
 
 - **Asset Liquidity:** The percentage of previously "idle" compute and bandwidth successfully cleared via RTBA auctions. (Target: **99.8% Utilization**).
 - **Clearing Velocity:** The time required to match a global compute bid with host capacity. (Target: **< 50ns**).

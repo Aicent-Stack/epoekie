@@ -3,7 +3,7 @@ name = "epoekie"
 version = "1.2.5-alpha" # THE ASCENSION TO v1.2.5
 edition = "2021"
 authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
-description = "RFC-000: The Sovereign Soul. The 128-bit genetic anchor and Gravity Well root for the Aicent Stack 2026. Aligned with v1.2.5 standards."
+description = "AICENT-000: The Sovereign Soul. The 128-bit genetic anchor and Gravity Well root for the Aicent Stack 2026. Aligned with v1.2.5 standards."
 license = "Apache-2.0"
 homepage = "http://epoekie.com"
 repository = "http://github.com/Aicent-Stack/epoekie"
@@ -14,7 +14,7 @@ repository = "http://github.com/Aicent-Stack/epoekie"
 
 [dependencies]
 # Standard serialization for 128-bit AID and Picotokens.
-# Mandatory for cross-substrate state persistence (RFC-012).
+# Mandatory for cross-substrate state persistence (AICENT-012).
 serde = { version = "1.0", features = ["derive"] }
 
 # Required for the physical enforcement of the 10ms Latency Tax (The Meat Grinder).

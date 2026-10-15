@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-000: EPŒKIE (The Sovereign Soul)
+ *  AICENT STACK - AICENT-000: EPŒKIE (The Sovereign Soul)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating the Origin of Will and 128-Bit Metabolic Identity."
@@ -28,7 +28,7 @@ impl SovereignLifeform for SovereignNode {
         self.shunter.metrics
     }
 
-    /// RFC-000 Compliance: The Heartbeat of the Soul.
+    /// AICENT-000 Compliance: The Heartbeat of the Soul.
     fn execute_metabolic_pulse(&self) {
         println!(
             "[DEMO_PULSE] 128-bit resonance detected for AID: {:032X}", 
@@ -103,6 +103,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         tokio::time::sleep(Duration::from_millis(500)).await;
     }
 
-    println!("\n[FINISH] RFC-000 Demonstration complete. The Soul is Evolving.");
+    println!("\n[FINISH] AICENT-000 Demonstration complete. The Soul is Evolving.");
     Ok(())
 }

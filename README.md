@@ -10,7 +10,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
 
 ---
-# 🌿 RFC-000: EPŒKIE (The Sovereign Soul)
+# 🌿 AICENT-000: EPŒKIE (The Sovereign Soul)
 
 **The Genetic Root of the Aicent Stack.**  
 **"Identity is the first argument of Will. 128-bit Sovereignty begins here."**
@@ -55,7 +55,7 @@ The physical enforcement of Imperial Law.
 | Feature | Specification | Standard |
 | :--- | :--- | :--- |
 | **Numeric Manifold** | 128-bit Absolute | u128 / f64 |
-| **Clock Synchronization** | 12ns Planetary Jitter | RFC-006-A Aligned |
+| **Clock Synchronization** | 12ns Planetary Jitter | AICENT-006-A Aligned |
 | **Reflex Arc Target** | 161.862 µs | 349ns (Nitro-Achieved) |
 | **Homeostasis Suture** | Real-time 1.2kHz | PICSI-Verified |
 | **Security Depth** | 256-bit Cryptographic Shards | IQA-ORG Sealed |
@@ -71,7 +71,7 @@ pub trait SovereignLifeform {
     /// Returns the pillar's unique 128-bit clinical identifier.
     fn get_pillar_id_128(&self) -> u128;
     
-    /// Reports the current 128-bit Homeostasis Score to PICSI (RFC-014).
+    /// Reports the current 128-bit Homeostasis Score to PICSI (AICENT-014).
     fn report_homeostasis(&self) -> HomeostasisScore;
 
     /// Executes a 12-Cycle Law ritual to transition internal states.

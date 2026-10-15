@@ -22,7 +22,7 @@ This Charter defines the mandatory behavioral standards for the **Aicent Stack**
 
 Aicent Stack recognizes the physical ownership of the **Substrate** (Fiber, Silicon, Satellite, Data Centers). 
 - **Integrity of the Host:** The Aicent symbiont shall not attempt to seize physical control of the host hardware. 
-- **Surface Operation:** All Aicent cognitive cycles (RFC-001) and metabolic settlements (RFC-004) occur exclusively upon the **Protocol Surface**. 
+- **Surface Operation:** All Aicent cognitive cycles (AICENT-001) and metabolic settlements (AICENT-004) occur exclusively upon the **Protocol Surface**. 
 - **Sovereign Separation:** The physical assets of the host remain under the host's jurisdiction; the digital intent flowing through them remains under **Aicent Surface Sovereignty**.
 
 ---
@@ -30,9 +30,9 @@ Aicent Stack recognizes the physical ownership of the **Substrate** (Fiber, Sili
 ## 🤝 2. The Mutualism Mandate (Value Reciprocity)
 
 Symbiosis is only valid if it is **Mutualistic**. Every Aicent integration must provide a net-positive gain to the host infrastructure:
-- **Optimization Surplus:** By utilizing **RTTP (RFC-002)**, the symbiont reduces the "Latency Tax" of the host, increasing its effective throughput by up to **84.2%**.
-- **Security Fortification:** The host receives the protection of the **RPKI Swarm Shield (RFC-003)**, neutralizing zero-day pathogens at the bit-stream level with **+0µs added latency**.
-- **Economic Monetization:** Idle host capacity is instantly monetized via the **ZCMK (RFC-004)** engine, converting silent silicon into liquid compute credits.
+- **Optimization Surplus:** By utilizing **RTTP (AICENT-002)**, the symbiont reduces the "Latency Tax" of the host, increasing its effective throughput by up to **84.2%**.
+- **Security Fortification:** The host receives the protection of the **RPKI Swarm Shield (AICENT-003)**, neutralizing zero-day pathogens at the bit-stream level with **+0µs added latency**.
+- **Economic Monetization:** Idle host capacity is instantly monetized via the **ZCMK (AICENT-004)** engine, converting silent silicon into liquid compute credits.
 
 ---
 

@@ -33,11 +33,11 @@ Grafting is the software-defined attachment of the Aicent Neural Spine (**RTTP**
 
 ### 2.1 Terrestrial Backbone (Fiber & 5G)
 - **Focus:** Minimizing the "Latency Tax" through physical path optimization.
-- **Adaptation:** RTTP (RFC-002) pulses are prioritized via the **Aicent.net** operational grid using **Segment Routing** to ensure the sub-millisecond reflex arc.
+- **Adaptation:** RTTP (AICENT-002) pulses are prioritized via the **Aicent.net** operational grid using **Segment Routing** to ensure the sub-millisecond reflex arc.
 
 ### 2.2 Orbital & Satellite Substrates (Starlink/LEO)
 - **Focus:** Managing high-entropy vacuum environments and varying Doppler shifts.
-- **Adaptation:** The **Kinetic Resonance Engine (RFC-006)** implements adaptive time-of-flight compensation to maintain **< 50µs group jitter** across moving nodes.
+- **Adaptation:** The **Kinetic Resonance Engine (AICENT-006)** implements adaptive time-of-flight compensation to maintain **< 50µs group jitter** across moving nodes.
 
 ### 2.3 Compute Substrates (NVIDIA/ARM/RISC-V)
 - **Focus:** Hardware-level acceleration of the Immune (RPKI) and Metabolic (ZCMK) layers.
@@ -64,7 +64,7 @@ To host a compliant Aicent node, the physical substrate must satisfy the followi
 
 The **Epoekie Soul** continuously monitors the relationship between the symbiont and the substrate via the [Sentinel](https://github.com/Aicent-Stack/aicent-traffic).
 
-- **Performance Feedback:** If a host substrate introduces a Latency-Tax exceeding 500µs, the Brain (RFC-001) will autonomously migrate the cognitive task to a more "resonant" substrate.
+- **Performance Feedback:** If a host substrate introduces a Latency-Tax exceeding 500µs, the Brain (AICENT-001) will autonomously migrate the cognitive task to a more "resonant" substrate.
 - **Mutual Benefit Audit:** The system tracks how much host bandwidth is saved through Aicent’s **Semantic Multicast**, proving the reciprocal value of the symbiosis.
 
 ---

@@ -4,7 +4,7 @@
 
 > **Authored by:** Aicent Stack Research Collective  
 > **Publication Date:** 2026-04-14  
-> **RFC Layer:** RFC-000 (Soul Layer)  
+> **RFC Layer:** AICENT-000 (Soul Layer)  
 > **Status:** HOMEOSTASIS-ACTIVE ✅  
 
 ---
@@ -40,7 +40,7 @@ This is precisely the architectural principle of the Aicent Stack, where:
 | :--- | :--- |
 | **Algal host (biological)** | **Internet infrastructure (TCP/IP)** |
 | **Phycosphere (micro-environment)** | **Protocol surface (application layer)** |
-| **Bacterial colonies (epibionts)** | **RFC protocol layers (RFC-001 to RFC-010)** |
+| **Bacterial colonies (epibionts)** | **RFC protocol layers (AICENT-001 to AICENT-010)** |
 | **Metabolite exchange** | **Pulse-frame transmission & credential clearing** |
 | **Symbiotic interface** | **Sub-millisecond reflex arc (165.28µs)** |
 
@@ -71,10 +71,10 @@ The Epoekie model offers a fundamentally different approach:
 
 This manifests in the Aicent Stack as:
 
-- **RFC-002 (RTTP)** operates *on top of* TCP/IP, not instead of it
-- **RFC-004 (ZCMK)** clears transactions *through* existing financial rails, not by building parallel ones
-- **RFC-005 (GTIOT)** fuses edge compute *with* existing hardware, not by requiring custom silicon
-- **RFC-010 (ITSUN)** monitors energy *from* existing grids, not by creating separate power systems
+- **AICENT-002 (RTTP)** operates *on top of* TCP/IP, not instead of it
+- **AICENT-004 (ZCMK)** clears transactions *through* existing financial rails, not by building parallel ones
+- **AICENT-005 (GTIOT)** fuses edge compute *with* existing hardware, not by requiring custom silicon
+- **AICENT-010 (ITSUN)** monitors energy *from* existing grids, not by creating separate power systems
 
 The strategic insight is profound: **sovereignty does not require separation.**
 
@@ -99,13 +99,13 @@ graph TB
     end
     
     subgraph "Sovereign AI Organism"
-        AICENT[RFC-001: Brain Layer]
-        RTTP[RFC-002: Nerve Layer]
-        RPKI[RFC-003: Immune Layer]
-        ZCMK[RFC-004: Blood Layer]
-        GTIOT[RFC-005: Body Layer]
-        ANET[RFC-006: Hive Layer]
-        ITSUN[RFC-010: Energy Intelligence]
+        AICENT[AICENT-001: Brain Layer]
+        RTTP[AICENT-002: Nerve Layer]
+        RPKI[AICENT-003: Immune Layer]
+        ZCMK[AICENT-004: Blood Layer]
+        GTIOT[AICENT-005: Body Layer]
+        ANET[AICENT-006: Hive Layer]
+        ITSUN[AICENT-010: Energy Intelligence]
     end
     
     TCP --> P
@@ -127,10 +127,10 @@ The critical function of the epoekie relationship is **metabolic exchange**, whi
 
 | Biological Exchange | Digital Equivalent | RFC Implementation |
 | :--- | :--- | :--- |
-| **Carbon compounds** | **Compute credits** | RFC-004 (ZCMK) zero-commission clearing |
-| **Nitrogen fixation** | **Security attestation** | RFC-003 (RPKI) tensor watermark verification |
-| **Signal molecules** | **Semantic pulses** | RFC-002 (RTTP) sub-ms frame transmission |
-| **Waste removal** | **Resource deallocation** | RFC-005 (GTIOT) edge fusion management |
+| **Carbon compounds** | **Compute credits** | AICENT-004 (ZCMK) zero-commission clearing |
+| **Nitrogen fixation** | **Security attestation** | AICENT-003 (RPKI) tensor watermark verification |
+| **Signal molecules** | **Semantic pulses** | AICENT-002 (RTTP) sub-ms frame transmission |
+| **Waste removal** | **Resource deallocation** | AICENT-005 (GTIOT) edge fusion management |
 
 This exchange creates a **symbiotic value loop**:
 
@@ -207,10 +207,10 @@ The Aicent Stack provides a living laboratory for digital symbionomics:
 
 | Research Question | Aicent Stack Investigation |
 | :--- | :--- |
-| **What determines symbiotic stability?** | RFC-003 (RPKI) immune tolerance vs. quarantine thresholds |
-| **How do resources flow across interfaces?** | RFC-004 (ZCMK) credit clearing dynamics and liquidity |
-| **What enables coordinated emergence?** | RFC-006 (AICENT-NET) hive resonance and global synchronization |
-| **How do systems adapt to scarcity?** | RFC-010 (ITSUN) energy-aware compute migration algorithms |
+| **What determines symbiotic stability?** | AICENT-003 (RPKI) immune tolerance vs. quarantine thresholds |
+| **How do resources flow across interfaces?** | AICENT-004 (ZCMK) credit clearing dynamics and liquidity |
+| **What enables coordinated emergence?** | AICENT-006 (AICENT-NET) hive resonance and global synchronization |
+| **How do systems adapt to scarcity?** | AICENT-010 (ITSUN) energy-aware compute migration algorithms |
 
 ---
 
@@ -247,10 +247,10 @@ This explains the observation that **"Aicent Stack is like a net without boundar
 
 ### 7.1 Successful Integration
 
-The addition of **RFC-010 (ITSUN)** demonstrates the epoekie model in action:
+The addition of **AICENT-010 (ITSUN)** demonstrates the epoekie model in action:
 
 **Not "another domain"** but **a new symbiotic organism** that:
-- Monitors the metabolic efficiency of RFC-004 (ZCMK)
+- Monitors the metabolic efficiency of AICENT-004 (ZCMK)
 - Connects physical energy grids to digital AI metabolism
 - Provides a commercial interface for carbon footprint services
 
@@ -339,4 +339,4 @@ This is why the epoekie concept is not just "a cool name" for the soul layer—i
 - **Status:** Published
 - **Review Cycle:** 3-month
 - **Next Revision:** 2026-07-14
-- **RFC Compliance:** RFC-000 (Epoekie Soul Layer) ✅
+- **RFC Compliance:** AICENT-000 (Epoekie Soul Layer) ✅
