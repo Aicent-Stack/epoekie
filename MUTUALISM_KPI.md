@@ -2,7 +2,7 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/Status-Homeostasis-brightgreen.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Specs-RFC--001--006-blue.svg" alt="Specs">
+  <img src="https://img.shields.io/badge/Specs-AICENT--001--006-blue.svg" alt="Specs">
   <img src="https://img.shields.io/badge/License-Apache--2.0-lightgrey.svg" alt="License">
 </p>
 
