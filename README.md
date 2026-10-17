@@ -56,7 +56,7 @@ The physical enforcement of Imperial Law.
 | :--- | :--- | :--- |
 | **Numeric Manifold** | 128-bit Absolute | u128 / f64 |
 | **Clock Synchronization** | 12ns Planetary Jitter | AICENT-006-A Aligned |
-| **Reflex Arc Target** | 161.862 µs | 349ns (Nitro-Achieved) |
+| **Reflex Arc Target** | 349 ns | Nitro-Achieved |
 | **Homeostasis Suture** | Real-time 1.2kHz | PICSI-Verified |
 | **Security Depth** | 256-bit Cryptographic Shards | IQA-ORG Sealed |
 
