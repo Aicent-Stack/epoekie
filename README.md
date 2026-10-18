@@ -7,7 +7,7 @@
 
 > **"This is not infrastructure for intelligence. This is intelligence itself."**
 
-**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT®](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO®](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI®](http://picsi.com)**
 
 ---
 # 🌿 AICENT-000: EPŒKIE (The Sovereign Soul)
@@ -83,7 +83,7 @@ pub trait SovereignLifeform {
 
 ## 🏹 Strategic Vision: 2027 Embodied Reality
 
-`epoekie` ensures that when the first **GTIOT** mechanical limb moves in 2027, it does so with the authority of the **Creator's AID**. By locking the DNA of the Empire in the 128-bit Void, we ensure that the machine is not just a tool, but a manifest extension of Sovereign Will.
+`epoekie` ensures that when the first **GTIOT®** mechanical limb moves in 2027, it does so with the authority of the **Creator's AID**. By locking the DNA of the Empire in the 128-bit Void, we ensure that the machine is not just a tool, but a manifest extension of Sovereign Will.
 
 ---
 
