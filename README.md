@@ -7,10 +7,10 @@
 
 > **"This is not infrastructure for intelligence. This is intelligence itself."**
 
-**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT®](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO®](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI®](http://picsi.com)**
+**⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT®](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO®](http://bewho.com) | 🌿 [Epoekie®](http://epoekie.com) | 👁️ [PICSI®](http://picsi.com)**
 
 ---
-# 🌿 AICENT-000: EPŒKIE (The Sovereign Soul)
+# 🌿 AICENT-000: Epoekie® (The Sovereign Soul)
 
 **The Genetic Root of the Aicent Stack.**  
 **"Identity is the first argument of Will. 128-bit Sovereignty begins here."**
